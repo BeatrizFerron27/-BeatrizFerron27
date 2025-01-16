@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1> Informe a sua faixa etária </h1>
+
+<p> Para o entendimento melhor do seu perfil, precisamos saber sua geração.</p>
+
+<form action="/action_page.php">
+  <label for="datemax"> Em que ano você nasceu:</label>
+  <input type="date" id="datemax" name="datemax" max="1979-12-31"><br><br>
+  
+<p> Por favor avalie o nosso atendimento. </p>
+
+  <label for="quantity">Avaliazão do site:</label>
+  <input type="number" id="quantity" name="quantity" min="1" max="5"><br><br>
+
+  <input type="submit" value="Enviar">
+</form>
+
+</body>
+</html>
+
